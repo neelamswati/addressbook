@@ -36,7 +36,7 @@ public class AddressbookUI extends UI {
      * com.vaadin.ui package and there are over 500 more in
      * vaadin.com/directory.
      */
-    TextField filter = new TextField();
+    TextField filter = new TextField()
     Grid contactList = new Grid();
     Button newContact = new Button("New contact");
 
